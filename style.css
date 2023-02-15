@@ -1,0 +1,32 @@
+
+    
+
+*{
+    box-sizing: border-box;
+}
+#paragraph{
+    padding: 10px;
+    color:beige;
+    font-size:29px;
+    font-family: impact;
+}
+#title{
+    background:#202020;
+}
+#menu{
+    background-color: black;
+    color:red;
+}
+#chicken,#beef,#sushi{
+    margin:0 10px 160px 0;
+}
+a{
+    color:black!important;
+    visibility: hidden;
+    color:white!important;
+}
+@media  only screen and (max-width: 767px) { a{
+    visibility: visible;
+}
+    
+}
